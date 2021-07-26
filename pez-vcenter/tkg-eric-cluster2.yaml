@@ -1,0 +1,17 @@
+apiVersion: run.tanzu.vmware.com/v1alpha1
+kind: TanzuKubernetesCluster
+metadata:
+  name: tkgs-eric-cluster2
+  namespace: test-tmc
+spec:
+  distribution:
+    version: v1.18.5+vmware.1-tkg.1.c40d30d    
+  topology:
+    controlPlane:
+      count: 1
+      class: best-effort-small
+      storageClass: tanzu
+    workers:
+      count: 3
+      class: best-effort-small
+      storageClass: tanzu
