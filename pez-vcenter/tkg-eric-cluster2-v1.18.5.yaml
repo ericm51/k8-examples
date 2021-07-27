@@ -1,7 +1,7 @@
 apiVersion: run.tanzu.vmware.com/v1alpha1
 kind: TanzuKubernetesCluster
 metadata:
-  name: tkgs-eric-cluster2
+  name: tkg-eric-cluster2
   namespace: test-tmc
 spec:
   distribution:
