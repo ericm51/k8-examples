@@ -5,7 +5,7 @@ metadata:
   namespace: demo
 spec:
   distribution:
-    version: v1.18.5+vmware.1-tkg.1.c40d30d # v1.20.7+vmware.1-tkg.1.7fb9067
+    version: v1.20.7+vmware.1-tkg.1.7fb9067  # v1.18.5+vmware.1-tkg.1.c40d30d # v1.20.7+vmware.1-tkg.1.7fb9067
   topology:
     controlPlane:
       count: 1
